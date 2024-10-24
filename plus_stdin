@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+# SPDX-FileCopyrightText: 2024 Reo Isaka
+
 import sys
 
 ans = 0
