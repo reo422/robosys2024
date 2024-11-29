@@ -3,8 +3,7 @@
 # SPDX-License-Identifier: BSD-3-Clause
 
 import sys
-for text in sys.stdin:
-    print("出力:", text)
-    if text.strip():
+for text in sys.stdin:    #標準入力を読み取り，textに格納する
+    print("出力:", text)    #格納した標準入力をprint関数で表示する
+    if text.strip():    #textに文字が入力されたらbreakで終了
         break
-
