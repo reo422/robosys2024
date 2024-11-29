@@ -1,0 +1,10 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2024 Reo Isaka
+# SPDX-License-Identifier: BSD-3-Clause
+
+import sys
+for text in sys.stdin:
+    print("出力:", text)
+    if text.strip():
+        break
+
